@@ -40,8 +40,9 @@ const Header = () => {
                         <IoIosArrowDropdown size="24px" color='white' />
                         <h1 className='text-lg font-medium text-white'>{user.fullName}</h1>
                         <div className='ml-4'>
-                            <button onClick={logoutHandler} className='px-4 py-2 text-white bg-red-800'>Logout</button>
-                            <button onClick={toggleHandler} className='px-4 py-2 ml-2 text-white bg-red-800'>{toggle ? "Home" : "Search Movie"}</button>
+                            <button onClick={logoutHandler} className='px-4 py-2 text-white bg-red-700
+                            rounded-lg '>Logout</button>
+                            <button onClick={toggleHandler} className='px-4 py-2 ml-2 text-white bg-red-700 rounded-lg '>{toggle ? "Home" : "Search Movie"}</button>
                         </div>
                     </div>
                 )

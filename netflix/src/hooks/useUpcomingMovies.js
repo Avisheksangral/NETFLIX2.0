@@ -7,7 +7,6 @@ const useUpcomingMovies = async () => {
     const dispatch = useDispatch();
     try {
         const res = await axios.get(Upcoming_Movie, options);
-        console.log(res.data.results);
         dispatch(getUpcomingMovie(res.data.results));
     } catch (error) {
         console.log(error);
