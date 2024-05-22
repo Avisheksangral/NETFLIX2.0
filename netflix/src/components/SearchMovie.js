@@ -31,7 +31,7 @@ const SearchMovie = () => {
         <>
             <div className='flex justify-center pt-[10%] w-[100%]'>
                 <form onSubmit={submitHandler} className='w-[50%]'>
-                    <div className='flex justify-between shadow-md border-2 p-2 border-gray-200 rounded-lg w-[100%]'>
+                    <div className='flex justify-between shadow-md border-2 p-2 border-red-700 rounded-lg w-[100%] bg-white'>
                         <input value={searchMovie} onChange={(e) => { setSearchMovie(e.target.value) }} className='w-full text-lg rounded-md outline-none' type="text" placeholder='Search Movies...' />
                         <button className='px-4 py-2 text-white bg-red-800 rounded-md'>{isLoading ? "loading..." : "Search"}</button>
                     </div>
