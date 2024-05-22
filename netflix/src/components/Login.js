@@ -37,9 +37,6 @@
                   if(res.data.success){
                       toast.success(res.data.message);
                   }
-                  console.log(res.data.user
-                    
-                  )
                   dispatch(setUser(res.data.user));
                   navigate("/browse");
               } catch (error) {
