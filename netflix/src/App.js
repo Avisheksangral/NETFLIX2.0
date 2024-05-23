@@ -5,7 +5,7 @@ import MovieDialog from "./components/MovieDialog";
 
 function App() {
   return (
-    <div>
+    <div className="bg-black h-screen">
 
       <Body />
       <Toaster />
